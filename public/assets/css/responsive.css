@@ -1,0 +1,85 @@
+/* Mobile Style Start */
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+	.MenuHoverList { position: relative;}
+	.MenuHoverList ul.DropDownList {flex-direction: column;}
+	.TopHead {padding-bottom: 50px; height: auto; background-size: 100%;}
+	#navbarsExampleDefault {background: #20ace1;border-radius: 10px;}
+	.MenuList .nav-item {padding-left: 0;border-bottom: 1px solid #eee;}
+	.MenuList .nav-item > a {padding-left: 20px; color: #fff !important;}
+	.MenuList .nav-item:last-child a { background: none; border: 0 !important;}
+	.MenuHoverList ul.DropDownList li ul.sub-nav-list {padding: 0px 0 15px;}
+	.navbar-brand img {max-width: 160px;}
+	.TopHead button {background: #20ace1;border: 1px solid #fff !important;}
+	.Banner_Text {padding: 20% 15px 0;}
+	.topsetimg img {max-width: 200px;}
+	.Banner_Text h1 {font-size: 28px;}
+	.BannerButton a {margin-right: 5px; padding: 0 10px; height: 40px; line-height: 40px; font-size: 12px;}
+	.Banner_Text h1, .Banner_Text span {font-size: 30px !important;}
+	.aboutUs, .RequestDemo {height: auto;padding: 40px 0 0;margin-top: 10px;}
+	.ServicesImg {height: auto;margin-top: 40px; background-size: 100%; background-position: center;}
+	.servicephone {display: none;}
+	.TestimonialSection {background: none; padding-top: 0;}
+	.aboutDetial {max-width: 100%; padding-top: 0;}
+	.aboutDetial ul {padding: 0px 0 0;}
+	.ServicesSection .aboutDetial ul li {text-align: center;}
+	.ServicesSection .aboutDetial ul li span.StarIcon {margin: 0 auto;}
+	.aboutDetial.Letraset ul li span.StarIcon {float: none;}
+	.TestimonialWaveBg {padding: 70px 0 100px;text-align: center;}
+	.PositionInspectImg .imgServices02 {max-width: 200px;}
+	.PositionInspectImg .imgServices01 {max-width: 200px;}
+	.aboutDetial.WhatIS {padding: 30px 20px; margin-top: 50px;}
+	.sub-title {padding: 20px 0 0;}
+	.RequestDemo .demoContent h1 {font-size: 36px;}
+	.aboutUs .aboutContent {padding: 0px 0 30px;}
+	.social-icon li {border: 0px solid #1f1f1f;}
+	.TestimonialImg01 {transform: rotate(40deg) translateX(64px) translateY(2px);}
+
+	.hoitworkPageSection02 img {width: 100%;}
+	.TestimonialImgbg01 {background-size: contain;display: none;}
+	.hoitworkPageSection02 .aboutContent {padding: 40px 0 0;}
+	.ImgTopSpace100 {padding-top: 30px;}
+	.hoitworkPageSection02 {padding: 0px 0 0;}
+	.__Button__ {float: left; width: 100%;	margin-bottom: 50px;}
+	.HowitWorksPage .Banner_Text {padding-top: 10%;}
+	.HowitWorksPage .__BannerImg.__BannerImg01 {margin-top: 0;}
+	.aboutContent h1 {font-size: 22px !important;font-weight: bold;line-height: 30px;}
+	ul.FeatureNeed {flex-direction: column;}
+	ul.FeatureNeed li {margin: 0 0px 20px; width: 100%;}
+	.SoftwareSection01 {padding: 0px 15px 50px;}
+	ul.FeatureNeed.CustomerReview  {padding: 0 15px;}
+	ul.FeatureNeed.CustomerReview li {width: 100%;}
+	.__futures_list__ li {width: 100%;margin-left: 50px;}
+	.cus_heading{font-size:26px;}
+
+	section.CheckListSec img, section.BeautifulBranded img, img.BannerImg {width: 100%; max-width: 100%;}
+	img.customwidth {display: none;}
+
+}
+@media only screen and (min-width: 100px) and (max-width: 1024px) and (orientation: landscape) {}
+
+@media only screen and  (min-width: 1024px) and (max-width: 1600px) {
+
+	.topsetimg img {position: absolute; top: 0; right: 0; height: 550px;}
+	/*.TopHead{background-size: 35%; height: auto;}*/
+	/*.aboutUs {background-size: 35%; margin: 50px 0 0;}*/
+	.Banner_Text {padding-top: 20%;}
+	.aboutDetial ul li {margin-bottom: 10px;}
+	.aboutUs .aboutDetial {padding-left: 80px;}
+	.ServicesSection .aboutDetial {padding-left: 0px;}
+
+	.MaxwidthLeft {max-width: 500px; width: auto;}
+	.MaxwidthRight {max-width: 220px; width: auto;}
+	.ImgTopSpace100 {padding-top: 170px;}
+
+	.HowitWorksPage {background-position: 130% -100px;}
+
+
+}
+@media only screen and  (min-width: 1024px) and (max-width: 1365px) {}
+
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+	.InspectionApp {margin: 0px 0 0;}
+	.altEmail{margin-left:0px;}
+
+}

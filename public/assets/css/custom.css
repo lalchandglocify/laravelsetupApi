@@ -1,0 +1,305 @@
+/* Helevatic Font */
+@font-face {
+    font-family: 'PoppinsLight';
+    src: url('../webfonts/Poppins-Light.woff2') format('woff2'),
+        url('../webfonts/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('../webfonts/Poppins.woff2') format('woff2'),
+        url('../webfonts/Poppins.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../webfonts/Poppins-Medium.woff2') format('woff2'),
+        url('../webfonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../webfonts/Poppins-Regular.woff2') format('woff2'),
+        url('../webfonts/Poppins-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../webfonts/Poppins-SemiBold.woff2') format('woff2'),
+        url('../webfonts/Poppins-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+/* Web Fonts Ends */
+
+
+html, body {background-color: #fff;font-family: 'PoppinsRegular'; font-size: 16px;}
+a {transition-duration: .35s;}
+.PositionSection{position: relative;}
+.PositionInspectImg {position: absolute; right: 0; left: 0; top: 0;}
+.PositionInspectImg .imgServices01 {position: absolute; left: 0;}
+.PositionInspectImg .imgServices02 {position: absolute; right: 0;}
+.ImgTopSpace {padding-top: 150px;}
+.ImgTopSpace100 {padding-top: 100px;}
+.RowSpace70 {padding-top: 70px;}
+img.customwidth {height: 700px;padding-top: 10%;}
+
+/* Top Section */
+.TopHead{background-color: #0c7fac; background-image: url(../images/headerbg.png), url(../images/shape.png); height: auto; background-position: left top, bottom center; background-repeat: no-repeat; overflow: hidden;}
+.TopNavigation{width: 100%;}
+.__TopImgSet {position: absolute;right: 0; max-width: 1170px;width: 100%;}
+.topsetimg {position: absolute;top: 0;right: 0;}
+.TopHead .TopNavigation ul.MenuList li.nav-item:nth-child(3) a, .TopHead .TopNavigation ul.MenuList li.nav-item:nth-child(4) a {color: #fff;}
+.HowitWorksPage .TopNavigation ul.MenuList li.nav-item a {color: #333 !important;}
+
+.TopNavigation .navbar-nav .nav-link { font-size: 16px; text-transform: uppercase; color: #fff;}
+.MenuList .nav-item {padding-left: 30px;}
+.MenuList .nav-item:last-child a {background: #fff;border-radius: 8px;padding: 10px 20px;color: #0c7fac;}
+.MenuList .nav-item:last-child a:hover {background: #0c7fac;color: #fff;}
+.MenuList .nav-item:last-child a:hover {color: #fff !important;}
+ul.MenuList li.nav-item a:hover {color: #333 !important; text-decoration: underline;}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover { color: #333 !important;}
+
+.Banner_Text {padding-top: 17%; z-index: 100;}
+.BannerButton a:first-child {border: 2px solid #fff; background: none; color: #fff;}
+.BannerButton a {margin-right: 30px;}
+.Banner_Text h1 {font-size: 36px; font-weight: bold;color: #fff;}
+.Banner_Text span { display: block; font-size: 45px;}
+.Banner_Text p {padding: 10px 0 10px; font-size: 14px; color: #fffd}
+/* Top Section End */
+
+/*** About Us ***/
+.aboutUs {margin: 0 0 0;height: auto; background: #fbfbfd;padding: 50px 0 50px;;}
+img.BannerImg {width: 650px; max-width: 650px;}
+/*.aboutUs {margin: 50px 0 0; height: 800px;}*/
+.aboutInspectImg {width: 90%;}
+.aboutDetial {width: 100%; max-width: 700px;}
+.aboutContent h1 {font-size: 36px; font-weight: bold;}
+/*span.BlueColor {color: #0c7fac;}*/
+.aboutDetial ul {padding: 0px 0 0; margin: 0;}
+.aboutDetial ul li {list-style: none; color: #7f7f7f; margin-bottom: 20px !important; line-height: 24px; font-size: 14px;}
+.aboutDetial ul li span.StarIcon { position: absolute;color: #0c7fac; font-size: 22px;}
+.aboutDetial ul li p {padding-left: 50px;}
+.aboutDetial ul li p .StarTitle {display: block; font-weight: bold; padding-bottom: 5px; font-size: 16px; color: #000;}
+.__Button__ {padding-top: 0px;}
+.__Button__a {text-transform: uppercase; background: #0c7fac;color: #fff; border-radius: 10px; height: 50px; line-height: 50px; box-shadow: 0 0 10px rgba(0,0,0,0.2);font-size: 14px; padding: 0 25px; text-align: center; float: left; font-weight: 600; text-transform: uppercase;}
+.__Button__a:hover{background: #0891c4; color: #fff; transition-duration: .35s;text-decoration: none; transform: scale(1.1);}
+.opacity{opacity: 0.5;}
+/* Inspection App */
+.InspectionApp {margin: 0 0 0; padding: 70px 0;}
+.InspectionApp p.ContentP {color: #717171;padding: 10px 0;line-height: 28px;}
+.InspectionApp .aboutDetial {width: 100%;max-width: 100%; padding-top: 0;}
+.aboutDetial.WhatIS {background: #fff; padding: 50px; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.1); background-image: url(../images/about-bg02.png); background-position: right top; background-repeat: no-repeat; background-size: contain; margin-top: 100px;}
+.PMargin {margin-bottom: 0;}
+
+/* Services Section */
+.ServicesImg{background-image: url(../images/servicebg.png); background-position: top center; background-repeat: no-repeat; height: 770px; margin-top: 70px;}
+.ServicesSection .aboutDetial ul li span.StarIcon {
+background: #0c7fac; height: 60px;width: 60px; line-height: 60px; border-radius: 50%; color: #fff;text-align: center;display: block;position: relative;}
+.ServicesSection .aboutDetial ul li p {padding: 15px 0 0px;}
+.servicephone {width: 90%;text-align: center;margin: 0 auto;}
+
+.aboutDetial.Letraset ul li { float: right; width: 100%;}
+.aboutDetial.Letraset ul li span.StarIcon { float: right;}
+.aboutDetial.Letraset ul li p {width: 100%; display: block; float: right;}
+.aboutDetial.Letraset {text-align: right;}
+
+/* Testimonial Section */
+.TestimonialSection {background: url(../images/testiwave.png); background-position: top center; background-repeat: no-repeat; padding-top: 155px;}
+.TestimonialWaveBg .aboutDetial {padding-top: 0;}
+.TestimonialWaveBg {background-color: #fefefe; float: left; width: 100%; padding-bottom: 200px;}
+/*.TestimonialImgbg01 {background: url(../images/testbg01.png); background-position: top left; background-repeat: no-repeat; height: 355px; padding: 20px 15px;}*/
+
+.TestimonialInner h2{color: #0c7fac; font-weight: bold;}
+.TestimonialInner p {line-height: 28px; color: #7f7f7f;}
+/*  ==== Losange */
+.TestimonialImg01 {transform-origin: 50% 50%; overflow: hidden; width: 220px;height: 220px; border-radius: 10%;}
+.TestimonialImg01 {transform: rotate(40deg) translateX(70px) translateY(2px);box-shadow: 0 0 20px rgba(0,0,0,0.3);}
+.TestimonialImg01 .TestimonialImg02 {width: 355px; height: 355px;transform: rotate(-45deg) translateY(-74px);}
+.TestimonialImg01 .TestimonialImg02 img {width: 100%; height: auto;}
+.TestimonialSection .carousel-indicators li {background-color: #0c7fac; border-radius: 50%;width: 20px; height: 20px;}
+.TestimonialSection .carousel-indicators {bottom: -60px; margin-left: 60px;}
+#testimonial .carousel-indicators  li {background-color: #5db4c0; height: 13px; width: 13px;margin: 5px;}
+#testimonial .carousel-indicators {bottom: -80px;}
+#testimonial .carousel-indicators {margin-left: 5%;}
+/* Testimonial Section Ends */
+
+/* Request Demo */
+.RequestDemo {width: 100%; float: left; background: url(../images/demoimg01.png), url(../images/demoimg02.png); background-position: top left, top right; background-repeat: no-repeat; background-color: #0c80ac; padding: 70px 0; height: auto;}
+.RequestDemo .demoContent {color: #fff;}
+.RequestDemo .demoContent h1 {font-size: 56px; font-weight: bold;}
+.RequestDemo .demoContent p {padding: 20px 0 0; line-height: 28px;}
+.RequestDemo .BannerButton a.__Button__a {border: 2px solid #fff; color: #fff;}
+
+.CheckListSec{background: #fff; padding: 60px 0;}
+section.BeautifulBranded { padding: 60px 0; background: #f5f5f5;}
+
+/* Inner Page Style */
+.TopHead.TopHeader .TopNavigation .navbar-nav .nav-link {color: #fff !important;}
+.TopHead.TopHeader .TopNavigation .navbar-nav .nav-link:hover {color: #fff;}
+.TopHead.TopHeader .MenuList .nav-item:last-child a {color: #fff; background: none; border: 2px solid #fff;}
+.TopHead.TopHeader {height: 120px; background-color: #0c7fac; background-repeat: repeat;overflow: visible;}
+.InnerHeaderContent {background-color: #0c7fac;padding: 50px 0;box-shadow: 0 0 20px rgba(0,0,0,0.1); min-height: 500px; position: absolute; width: 100%;}
+.Banner_Text_Inner {width: 100%; text-align: center; z-index: 10000;}
+.Banner_Text_Inner ul {padding: 0; margin: 0;}
+.Banner_Text_Inner ul li {list-style: none; display: inline-block; text-align: center;}
+.Banner_Text_Inner ul li a {color: #fff;font-size: 16px;padding: 0 12px;text-transform: uppercase; border-right: 1px solid #fff;
+height: 15px; display: flex; align-items: center;}
+.Banner_Text_Inner ul li:last-child a{border: 0;}
+.Banner_Text_Inner h2 {color: #fff;text-transform: uppercase; letter-spacing: 2px;}
+
+.LoginPageSection{padding: 100px 0;}
+.LoginForm .login-title{color: #555;font-size: 18px;font-weight: 400;display: block;}
+.LoginForm .profile-img{width: 100px; height: 100px; margin: 20px auto 20px auto; display: block; border-radius: 50%;}
+.LoginForm {width: 100%; max-width: 600px;margin: 100px auto 0 auto;background: #fff; padding: 40px 30px 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1);}
+.LoginForm .btn-primary {color: #fff; background-color: #1ca5d9; border-color: #1ca5d9; font-size: 18px;height: 50px;}
+.RememberME {padding-top: 20px;}
+.LoginForm .form-signin input.form-control { height: 50px; border-radius: 8px; margin-bottom: 20px;}
+.LoginForm .form-signin a {color: #1ca5d9;}
+.NewAccount {color: #1ca5d9;}
+a.NewAccount:hover {text-decoration: none; color: #2681a4;}
+.ContactPageSection{padding: 70px 0;}
+.createaccount {padding-bottom: 15px; font-size: 20px;font-weight: 600;}
+.ContactForm {width: 100%; max-width: 100%; margin: 0 auto 0 auto; background: #fff; padding: 50px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1);}
+i.contacticon {font-size: 36px;color: #1ca5d9;float: left;margin-right: 30px;max-width: 10%; width: 100%;}
+.ConnectDetail p {padding-bottom: 10px; line-height: 26px;}
+.ConnectDetail { padding-top: 20px; margin-top: 0;}
+.ContactDetail {margin-top: 0; padding: 50px;}
+.ContactDetail h2 + p {font-size: 15px;}
+.ContactPageSec{padding: 50px 0; background: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.1);}
+.ContactPageSec .Banner_Text_Inner h2, .ContactPageSec .Banner_Text_Inner ul li a {color: #000;}
+.ContactPageSection .form-control {border: 0;border-bottom: 1px solid #eee;border-radius: 0 !important; padding: 0;}
+
+
+
+/* FOTTER SECTION */
+.fotter-section{background:#111; padding:50px 0 15px 0; float: left; width: 100%;}
+.address-text{margin:0px; padding:0px;}
+.address-text li{list-style:none; color:#8f8f8f; line-height:32px; font-size:14px;}
+.address-text li span{color:#0c7fac;}
+.address-text li a {list-style:none; color:#8f8f8f; line-height:32px; font-size:14px; text-decoration:none;}
+.address-text li a:hover{color:#fff;}
+.connect{font-size:24px; text-transform:uppercase; color:#fff; letter-spacing:2px; padding-bottom:5px;}
+.sub-title{color:#fff; text-transform:uppercase; padding-bottom:20px; font-weight:500;}
+.address-text01 li{list-style:none; color:#8f8f8f; line-height:24px; font-size:14px;}
+.sub-title img {max-width: 200px;}
+.social-icon{margin:0px;  padding:0;}
+.social-icon li{list-style:none; display:inline;}
+.social-icon li a{color:#8f8f8f; font-size:16px; padding:0 15px;}
+.social-icon li a:hover{color:#fff;}
+.media-icon{margin: 25px auto 0 auto;}
+.copyright{border-top:0; margin-top:30px; padding-top:15px;}
+.copyright-text{font-size:14px; color:#8f8f8f;}
+
+
+/* Menu Drop Down List */
+.MenuHoverList {position: absolute; z-index: 99999; display: none;transition-duration: .35s;right: 0;
+width: 100%; max-width: 860px; top: 70%;}
+.MenuList .nav-item:hover .MenuHoverList {display: block;transition-duration: .35s;}
+.MenuHoverList ul.DropDownList {margin: 0;background: #fff;padding: 30px;border-radius: 10px;box-shadow: 0 0 20px rgba(0,0,0,0.1); display: flex;}
+.MenuHoverList ul.DropDownList li {list-style: none; display: inline-block; width: 100%;
+    max-width: 100%; padding: 0 30px 0 0;}
+.MenuHoverList ul.DropDownList li a {list-style: none; display: inline-block;}
+.MenuHoverList ul.DropDownList li ul.sub-nav-list {margin: 0;padding: 15px 0 0;}
+.MenuHoverList ul.DropDownList li ul.sub-nav-list li,.MenuHoverList ul.DropDownList li ul.sub-nav-list li a {
+    color: #333; font-size: 14px; display: block; width: 100%; line-height: 32px;}
+.MenuHoverList ul.DropDownList > li > a {font-weight: bold;}
+.MenuHoverList ul.DropDownList li ul.sub-nav-list li a:hover {text-decoration: none;}
+
+
+
+/* Admin Style */
+footer.sticky-footer {background: #424242; padding: 30px 0;}
+.InnerHeaderAdmin {min-height: 100%; background: none;}
+.copyright span {color: #fff;}
+.LoginPageAdmin .LoginForm {margin: 40px auto 0 auto;}
+.InnerHeaderAdmin .Banner_Text_Inner h2 {color: #000;}
+header.AdminHeader {height: auto !important;}
+.AdminHeader a.navbar-brand img {max-width: 70%;}
+
+.AdminProfile {width: 100%;max-width: 600px;margin: 50px auto 0 auto; background: #fff;padding: 40px 30px 30px; border-radius: 10px;box-shadow: 0 0 20px rgba(0,0,0,0.1);}
+
+
+/* Admin Style Ends*/
+
+
+/* How It Works */
+.HowitWorksPage {background-color: #fff; background-image: url(../images/bg-75.svg); background-position: 170% 110%;}
+.HowitWorksPage .Banner_Text h1 {font-size: 36px;}
+.HowitWorksPage .Banner_Text span {font-size: 46px;}
+
+.hoitworkpagetitle {background-color: #0c7fac;padding: 50px 0;box-shadow: 0 0 20px rgba(0,0,0,0.1);width: 100%;}
+.hoitworkPageSection{padding: 0px 0 70px; background-color: #fff;}
+p.ContentP {color: #717171; padding: 10px 0; line-height: 24px;font-size: 18px;    color: #333;}
+.__Section02__{padding-bottom: 100px;}
+.aboutDetial.WhatIS.HowWorks {max-width: 100%; margin: 30px 0 0; background-color: #f5f5f5; box-shadow: 0 0 0 0; border: 0;}
+.__BannerImg {margin-top: 100px;}
+.hoitworkPageSection02{background-color: #fff; background-image: url(../images/bg-79.svg); height: 100%; background-position: top center; background-repeat: no-repeat; background-size: cover;padding: 50px 0;    background-attachment: fixed;}
+.hoitworkPageSection02 .aboutContent h1.fontsize30 { font-size: 28px; font-weight: bold;}
+.hoitworkPageSection02 .aboutContent{padding: 60px 0 0;}
+
+.hoitworkPageSection03 {padding: 70px 0 70px; background-color: #fff;}
+
+.TestimonialWork {background: url(../images/testiwave02.png); background-repeat: repeat; background-position: top center; background-repeat: no-repeat;
+padding-top: 155px; background-color: #fefefe;}
+.TestimonialWork .TestimonialWaveBg {background: none; padding-bottom: 100px;}
+
+.TestimonialWork .TSShadow {background: #fff; padding: 50px 50px 80px; margin-top: 70px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1);}
+
+/* Property Inspection Software */
+.HowitWorksPage .Banner_Text {padding-top: 30%;}
+.HowitWorksPage .__BannerImg {margin-top: 50px;}
+/*.HowitWorksPage .__BannerImg.__BannerImg01 {margin-top: 100px;}*/
+.SoftwareSection01{padding: 50px 0 50px; background-image: url(../images/bg-79.svg); height: 100%; background-position: top center; background-repeat: no-repeat;
+background-size: cover;background-color: #fff;}
+.aboutDetial.softDetial {max-width: 100%; padding: 0;}
+.SoftwareSection01 .aboutDetial {padding: 0;}
+ul.FeatureNeed {padding: 0; margin: 30px 0 0; display: flex; justify-content: space-between; flex-wrap: wrap;}
+ul.FeatureNeed li {list-style: none; display: inline-block; font-size: 16px; background: #fff; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 10px; padding: 30px; margin: 0 10px 30px; width: 31%; flex-wrap: wrap; line-height: 26px;}
+ul.FeatureNeed li a {color: #0891c4;}
+ul.FeatureNeed li img {width: 60px;}
+ul.FeatureNeed li h4 {padding: 20px 0 10px;}
+.__futures_list__ { padding: 0; margin: 50px 0 0;}
+.__futures_list__ li {float: left; width: 33%; text-align: left;line-height: 40px; list-style: disclosure-closed;}
+
+.chess_7{mix-blend-mode: darken;}
+.TestimonialInner p {line-height: 24px; color: #7f7f7f; font-size: 14px;}
+.backgroundnone {background:none; background-color: #fbfbfd;}
+.TestimonialImgbg01 {float: left;height: 350px;padding-top: 30px;}
+
+/* Happy Customers */
+.HowitWorksPage.CustomerRivewHeader {background-color: #fff;background-image: url(../images/bg-75.svg);background-position: 160% 40%;background-size: auto;box-shadow: 0 0 20px rgba(0,0,0,0.2);z-index: 99999; position: relative; height: auto;}
+ul.FeatureNeed.CustomerReview li { width: 48%;}
+ul.FeatureNeed.CustomerReview li img {width: 150px;}
+ul.FeatureNeed.CustomerReview li a {color: #0891c4;font-size: 18px;padding-top: 10px;display: block;}
+.ReadMoreButton {margin-top: 50px;}
+.ReadMoreButton a {border: 2px solid #0c7fac;padding: 10px 50px;border-radius: 30px; color: #0c7fac; text-transform: uppercase;}
+.ReadMoreButton a:hover {border-color: #0c7fac; color: #fff; background-color: #0c7fac; text-decoration: none;}
+.Banner_Text_Customer.Banner_Text h1 {font-size: 52px;   line-height: 70px;}
+.Banner_Text_Customer.Banner_Text h1 span {font-size: 52px;   line-height: 70px;}
+.Banner_Text.Banner_Text_Customer {padding-top: 20%;}
+
+.aboutInspectImg ul {padding: 0; margin: 0;}
+.aboutInspectImg ul li{list-style: none;display: inline-block; margin: 10px;}
+.aboutInspectImg ul li a {color: #333; font-size: 26px; text-decoration: none;}
+.aboutInspectImg ul li a span {display: block; padding-top: 15px;}
+.aboutInspectImg ul li a img { box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 5px;}
+
+
+
+/*DEVELOPER*/
+#common_page{max-width: 100%;}
+#addEditButton{float: right;background-color: #0c7fac;border-color: #0c7fac;}
+#frontLogout {border-radius: 8px;padding: 10px 20px;border: 1px solid white; transition-duration: .35s;background-color: #1fa8dd;}
+#frontLogout:hover {background: #0c7fac !important;color: #fff !important; transition-duration: .35s;}
+#mainHeaderLogout{background: #fff;border-radius: 8px;padding: 10px 20px;border: 1px solid white; transition-duration: .35s;color: #000;}
+.Register{background: none; background-color: #0c7fac;overflow: visible;}
+button#mainHeaderLogout:hover {background-color: #0c7fac;color:#fff !important;}
+.verify_email{margin:20px 0px;}
+.reset_button{background-color: #0c7fac;border-color: #0c7fac;}
+.altEmail{margin-left:75px;}
+.altFooterEmail{margin-left:46px;}
